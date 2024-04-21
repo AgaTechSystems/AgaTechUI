@@ -32,6 +32,7 @@ function Hero({}: Props) {
             <div className="px-4 py-2 rounded-2xl bg-zinc-950/10 backdrop-blur  border-[#5de4bb] border-[1px] border-opacity-40">
               <div className="text-xs middlePro:text-[10px] md:text-sm text-zinc-400 drop-shadow-[0_0_16px_rgba(0,229,206,0.8)] uppercase whitespace-nowrap font-display font-semibold tracking-wide ">
                 Revolutionizing the digital ecosystem
+
               </div>
             </div>
             <div className="flex flex-grow h-0.5 bg-zinc-700"></div>
@@ -43,7 +44,8 @@ function Hero({}: Props) {
           {/* heading  */}
 
           <h1 className="text-3xl middlePro:text-2xl w-[95%] md:w-full mx-auto drop-shadow-[0_0_16px_rgba(0,40,40,0.8)] md:text-5xl xl:text-7xl titleHeading text-white capitalize text-center font-Ruberoid font-bold xl:leading-[80px] pt-3 ">
-            Redefining Blockchain <br /> Interaction
+          Where Tomorrow <br />Transacts  Today ? 
+               
           </h1>
 
           {/* heading  */}
@@ -60,7 +62,7 @@ function Hero({}: Props) {
           {/* small text  */}
 
           {/* button */}
-          <div className="grid grid-cols-2 items-center justify-center gap-5 middlePro:gap-3 md:gap-10 ">
+          <div className="grid grid-cols-2 items-center justify-center gap-5 middlePro:gap-3 md:gap-10 z-10 ">
             {HeroBtn.map((e, index) => {
               return (
                 <div key={index} className="button__wrap">

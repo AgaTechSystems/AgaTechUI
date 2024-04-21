@@ -769,7 +769,7 @@ export const faqs_data = [
   {
     id: 2,
     question: "What technology underpins Agatech ($AGATA)?",
-    answer: " Agatech ($AGATA) is built on the Ethereum blockchain, utilizing BEP-20 standards for secure and interoperable transactions across blockchain networks, with plans to explore and integrate more advanced blockchain technologies.",
+    answer: " Agatech ($AGATA) is built on the Binance Smart Chain, utilizing BEP-20 standards for secure and interoperable transactions across blockchain networks, with plans to explore and integrate more advanced blockchain technologies.",
   },
   {
     id: 3,
@@ -795,7 +795,7 @@ export const faqs_data = [
   {
     id: 5,
     question: "What is the total supply of Agatech ($AGATA), and how is it distributed?",
-    answer: " The total supply of $AGATA is capped, with a detailed distribution plan that includes allocations for the development team, community rewards, and strategic partnerships.",
+    answer: "The max supply of $AGATA is capped at 10,000,000 tokens, with a detailed distribution plan as per the tokenomics.Current total supply sits at 8,999,995 tokens with a circulating supply of 7,911,912 tokens.",
   },
   {
     id: 5,
